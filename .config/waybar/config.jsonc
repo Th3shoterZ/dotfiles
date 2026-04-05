@@ -1,0 +1,70 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "spacing": 0,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "backlight",
+    "pulseaudio",
+    "tray",
+    "battery",
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{id}",
+  },
+  "clock": {
+    "format": "{:%d.%m.%y   %H:%M:%S}",
+    "interval": 1,
+    "tooltip": true,
+    "tooltip-format": "<span font='JetBrainsMono Nerd Font'>{calendar}</span>",
+    "calendar": {
+      "mode": "year",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#FCBCAB'><b>{}</b></span>",
+        "days": "<span color='#C2C9CC'><b>{}</b></span>",
+        "weeks": "<span color='#19B9E6'><b>W{}</b></span>",
+        "weekdays": "<span color='#9BA3A8'><b>{}</b></span>",
+        "today": "<span color='#E64619'><b><u>{}</u></b></span>",
+      },
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down",
+    },
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": {
+      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+    },
+  },
+  "network": {
+    "format-wifi": "󰤨  {essid}",
+    "format-disconnected": "󰤭 ",
+  },
+  "pulseaudio": {
+    "format": "󰕾  {volume}%",
+    "format-muted": "󰝟 ",
+  },
+  "cpu": {
+    "format": "󰻠  {usage}%",
+  },
+  "memory": {
+    "format": "󰍛  {used:0.1f}G",
+  },
+  "backlight": {
+    "format": "󰃞  {percent}%",
+  },
+}
