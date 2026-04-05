@@ -1,7 +1,0 @@
-0000000000000000000000000000000000000000 167b84059c29cd33e25a108295f1da869ba89644 Wout <wout.vervoort@outlook.de> 1775415712 +0200	commit (initial): add hyprland config
-167b84059c29cd33e25a108295f1da869ba89644 0000000000000000000000000000000000000000 Wout <wout.vervoort@outlook.de> 1775415777 +0200	Branch: renamed refs/heads/master to refs/heads/main
-0000000000000000000000000000000000000000 167b84059c29cd33e25a108295f1da869ba89644 Wout <wout.vervoort@outlook.de> 1775415777 +0200	Branch: renamed refs/heads/master to refs/heads/main
-167b84059c29cd33e25a108295f1da869ba89644 3b572e5f2c4992ae5e9bedbe414706146508051a Wout <wout.vervoort@outlook.de> 1775416472 +0200	commit: add waybar config
-3b572e5f2c4992ae5e9bedbe414706146508051a 1f8dec4e264473052391f9aad395486f8a9cb698 Wout <wout.vervoort@outlook.de> 1775416513 +0200	commit: add rofi config
-1f8dec4e264473052391f9aad395486f8a9cb698 e31f5b9706ad9d6bd0cce77e0a3f7e111b2a5484 Wout <wout.vervoort@outlook.de> 1775416544 +0200	commit: add kitty config
-e31f5b9706ad9d6bd0cce77e0a3f7e111b2a5484 df300d2e74323f18daf62243ab819a92696bb3ba Wout <wout.vervoort@outlook.de> 1775416558 +0200	commit: add neovim config
